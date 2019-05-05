@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+.is-180x180{
+    height: 180px;
+    width: 180px;
+}
+.skill-list > li{
+    margin: 30px 0 0 0;
+}
+.has-bg-image {
+    background-image: url('../images/cover10.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bulma-image {
+    width: 200px;
+}
+.interests {
+    display: flex;
+    justify-content: center;
+}
