@@ -1,0 +1,181 @@
+{
+  "basics": {
+    "name": "José Coelho",
+    "label": "DevOps Engineer",
+    "picture": "images/jcoelho.jpg",
+    "x_title": "Hey There! Glad you're here",
+    "summary": "Going on 4 years of experience in IT. Currently I’m working as a developer exploring the DevOps world. I’m interested in service management, all sorts of automation and developing front-end and back-end applications.",
+    "location": {
+      "country": "Portugal",
+      "countryCode": "PT",
+      "region": "Madeira Island"
+    },
+    "profiles": [
+      {
+        "network": "DEV Community",
+        "username": "jcoelho",
+        "url": "https://dev.to/jcoelho",
+        "x_icon":"fab fa-2x fa-dev"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "josecoelho93",
+        "url": "https://www.linkedin.com/in/josecoelho93",
+        "x_icon": "fab fa-2x fa-linkedin"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Asseco PST",
+      "position": "DevOps Engineer",
+      "website": "https://www.pst.asseco.com",
+      "startDate": "2018-04-01",
+      "endDate": "",
+      "summary": "Joined Asseco PST DevOps team to help them deliver happiness to their customers",
+      "highlights": []
+    },
+    {
+      "company": "Asseco PST",
+      "position": "Backend Developer",
+      "website": "https://www.pst.asseco.com",
+      "startDate": "2017-08-16",
+      "endDate": "",
+      "summary": "Started my first professional developer experience as a Backend Developer for Asseco PST",
+      "highlights": []
+    },
+    {
+      "company": "European GNSS Agency",
+      "position": "IT Support Technician",
+      "website": "https://www.gsa.europea.eu",
+      "startDate": "2016-05-01",
+      "endDate": "",
+      "summary": "Moved to Prague, Czech Republic to intern for the European Commission helping them build one of the biggest european projects, Galileo Satellite System",
+      "highlights": []
+    },
+    {
+      "company": "Empresa de Electricidade da Madeira",
+      "position": "IT Support Technician",
+      "website": "https://www.eem.pt",
+      "startDate": "2015-03-01",
+      "endDate": "",
+      "summary": "My first real work experience. Interning as an IT Support Technician I was able to learn and explore way more than the workings of a big IT Infrastructure. I got to work with PowerShell scripting, PHP and email marketing.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Madeira",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2011-09-15",
+      "endDate": "2019-06-07",
+      "courses": [
+        "Object Oriented Programming",
+        "Database Management Systems",
+        "Operating systems and computers architectures",
+        "Requirements Engineering"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Jenkins",
+      "level": 90,
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Continuous Integration",
+      "level": 80,
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Scripting",
+      "level": 95,
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Containers",
+      "level": 75,
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Cloud",
+      "level": 60,
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Troubleshooting",
+      "level": 95,
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Infrastructure as Code",
+      "level": 50,
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Object Oriented Programming",
+      "level": 95,
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Design Patterns",
+      "level": 70,
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Git",
+      "level": 75,
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "REST API",
+      "level": 85,
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Unit Testing",
+      "level": 80,
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "MySQL",
+      "level": 60,
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "MongoDB",
+      "level": 60,
+      "keywords": ["Software Developer"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent speaker"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Travel bug",
+      "x_icon": "fa-globe-africa"
+    },
+    {
+      "name": "Dog lover",
+      "x_icon": "fa-dog"
+    },
+    {
+      "name": "Foodie",
+      "x_icon": "fa-utensils"
+    },
+    {
+      "name": "Live in the now",
+      "x_icon": "fa-brain"
+    }
+  ]
+}
