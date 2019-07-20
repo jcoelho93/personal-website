@@ -1,9 +1,6 @@
 import React from "react"
 import MenuItem from "./MenuItem"
-
-
-//document.querySelector('.nav-menu').classList.toggle('is-active')
-//this.classList.toggle('is-active')
+import Resume from "../../resume.json"
 
 class NavBar extends React.Component {
 
@@ -24,7 +21,7 @@ class NavBar extends React.Component {
                 <div className="container">
                     <div className="navbar-brand">
                         <a href="/" className="navbar-item title is-unselectable my-name">
-                            José Coelho
+                            {Resume.basics.name}
                         </a>
                         <span className="navbar-burger burger" onClick={this.handleMenuClick}>
                             <span></span>

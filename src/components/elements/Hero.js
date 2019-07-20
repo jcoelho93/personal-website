@@ -1,5 +1,6 @@
 import React from "react"
 import NavBar from "./NavBar"
+import Resume from "../../resume.json"
 
 function Hero() {
     return (
@@ -10,27 +11,26 @@ function Hero() {
             <div className="hero-body">
                 <div className="container">
                     <p className="subtitle is-5 has-text-weight-light">I'm a</p>
-                    <h1 className="title">DevOps Engineer</h1>
-                    <h2 className="subtitle">Madeira Island, Portugal</h2>
+                    <h1 className="title">{Resume.basics.label}</h1>
+                    <h2 className="subtitle">{Resume.basics.location.region}, {Resume.basics.location.country}</h2>
                 </div>
             </div>
             <div className="hero-foot" style={{paddingBottom:'20px'}}>
                 <div className="columns is-mobile">
                     <div className="column is-4"></div>
-                    <div className="column is-2 has-text-centered">
-                        <a href="https://www.linkedin.com/in/josecoelho93" target="blank" className="is-hovered">
-                            <span className="icon is-medium is-">
-                                <i className="fab fa-2x fa-linkedin"></i>
-                            </span>
-                        </a>
-                    </div>
-                    <div className="column is-2 has-text-centered">
-                        <a href="https://dev.to/jcoelho" target="blank" className="is-hovered">
-                            <span className="icon is-medium">
-                                <i className="fab fa-2x fa-dev"></i>
-                            </span>
-                        </a>
-                    </div>
+                    {
+                        Resume.basics.profiles.map((value) => {
+                            return (
+                                <div className="column is-2 has-text-centered">
+                                    <a href={value.url} target="blank" className="is-hovered" title={value.network}>
+                                        <span className="icon is-medium is-">
+                                            <i className={value.x_icon}></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            );
+                        })
+                    }
                     <div className="column is-4"></div>
                 </div>
             </div>
