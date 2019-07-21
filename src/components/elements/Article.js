@@ -13,7 +13,7 @@ function Article(props) {
             </div>
             <div className="card-image">
                 <figure className="image">
-                    <img src={props.image} alt="" />
+                    <img width="1000" height="420" src={props.image} alt="" />
                 </figure>
             </div>
             <div className="card-content">

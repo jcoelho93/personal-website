@@ -33,7 +33,6 @@ class Articles extends Component{
                     )
                 });
                 this.setState({articles: articles})
-                console.log(this.state)
             })
 
     }
