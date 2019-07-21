@@ -3,8 +3,6 @@ import ProgressBar from "./ProgressBar"
 
 function SkillsList(props) {
     const skills = props.skills
-    console.log(skills)
-    
     return (
         <ul className="skill-list">
             {buildSkills(skills)}

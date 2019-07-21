@@ -8,6 +8,8 @@ function AboutMe() {
       <div className="container has-text-centered">
         <figure className="image container is-180x180">
           <img
+            width = "180px"
+            height = "180px"
             src={Resume.basics.picture}
             alt={Resume.basics.name}
             className="is-rounded"
@@ -21,8 +23,8 @@ function AboutMe() {
         </p>
         <div className="container interests">
           <div className="field is-grouped is-grouped-multiline has-text-centered">
-              {Resume.interests.map((value) => {
-                return <Badge text={value.name} faIcon={value.x_icon} />
+              {Resume.interests.map((value, index) => {
+                return <Badge key={index} text={value.name} faIcon={value.x_icon} />
               })}
           </div>
         </div>
