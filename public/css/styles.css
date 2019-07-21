@@ -25,5 +25,5 @@ html {
 .summary-text {
     margin-left: auto;
     margin-right: auto;
-    width: 36em;
+    max-width: 36em;
 }
