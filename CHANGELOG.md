@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+ - Document title is now taken from `resume.json`
+
 ## [1.1.2] - 2019-07-21
 ### Fixed
  - Improved some points regarding SEO
