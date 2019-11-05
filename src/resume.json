@@ -6,9 +6,9 @@
     "x_title": "Hey There! Glad you're here",
     "summary": "Going on 4 years of experience in IT. Currently I’m working as a developer exploring the DevOps world. I’m interested in service management, all sorts of automation and developing front-end and back-end applications.",
     "location": {
-      "country": "Portugal",
-      "countryCode": "PT",
-      "region": "Madeira Island"
+      "country": "Hungary",
+      "countryCode": "HU",
+      "region": "Budapest"
     },
     "profiles": [
       {
@@ -27,11 +27,20 @@
   },
   "work": [
     {
+      "company": "Bosch",
+      "position": "DevOps Engineer for automated driving",
+      "website": "https://www.bosch.hu",
+      "startDate": "2019-10-15",
+      "endDate": "",
+      "summary": "Just joined the Athena project, a Bosch + Daimler effort to bring a level 4 autonomous taxi service to the streets.",
+      "highlights": []
+    },
+    {
       "company": "Asseco PST",
       "position": "DevOps Engineer",
       "website": "https://www.pst.asseco.com",
       "startDate": "2018-04-01",
-      "endDate": "",
+      "endDate": "2019-08-30",
       "summary": "Joined Asseco PST DevOps team to help them deliver happiness to their customers",
       "highlights": []
     },
