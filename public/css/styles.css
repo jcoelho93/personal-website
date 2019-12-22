@@ -27,3 +27,7 @@ html {
     margin-right: auto;
     max-width: 36em;
 }
+
+.skill-percentage {
+	float: right;
+}
