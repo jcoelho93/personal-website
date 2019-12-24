@@ -22,6 +22,12 @@
         "username": "josecoelho93",
         "url": "https://www.linkedin.com/in/josecoelho93",
         "x_icon": "fab fa-2x fa-linkedin"
+      },
+      {
+        "network": "GitHub",
+        "username": "jcoelho93",
+        "url": "https://github.com/jcoelho93",
+        "x_icon": "fab fa-2x fa-github"
       }
     ]
   },
