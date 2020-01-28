@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+ - Skills progress bar displays skill level instead of percentages. One of the following:
+    - Advanced
+    - Intermediate
+    - Basic
+
 ##  [1.2.2] - 2019-12-31
 ### Added
  - GitHub profile page
