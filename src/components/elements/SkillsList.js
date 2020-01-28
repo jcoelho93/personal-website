@@ -18,7 +18,7 @@ function buildSkills(skills){
             <ProgressBar
                 key={counter}
                 text={key}
-                percentage={value}
+                level={value}
             />
         </li>)
         counter++

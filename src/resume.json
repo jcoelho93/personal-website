@@ -96,72 +96,72 @@
   "skills": [
     {
       "name": "Jenkins",
-      "level": 90,
+      "level": "Advanced",
       "keywords": ["DevOps"]
     },
     {
       "name": "Continuous Integration",
-      "level": 80,
+      "level": "Advanced",
       "keywords": ["DevOps"]
     },
     {
       "name": "Scripting",
-      "level": 95,
+      "level": "Advanced",
       "keywords": ["DevOps"]
     },
     {
       "name": "Containers",
-      "level": 75,
+      "level": "Intermediate",
       "keywords": ["DevOps"]
     },
     {
       "name": "Cloud",
-      "level": 60,
+      "level": "Basic",
       "keywords": ["DevOps"]
     },
     {
       "name": "Troubleshooting",
-      "level": 95,
+      "level": "Advanced",
       "keywords": ["DevOps"]
     },
     {
       "name": "Infrastructure as Code",
-      "level": 50,
+      "level": "Basic",
       "keywords": ["DevOps"]
     },
     {
       "name": "Object Oriented Programming",
-      "level": 95,
+      "level": "Advanced",
       "keywords": ["Software Developer"]
     },
     {
       "name": "Design Patterns",
-      "level": 70,
+      "level": "Intermediate",
       "keywords": ["Software Developer"]
     },
     {
       "name": "Git",
-      "level": 75,
+      "level": "Intermediate",
       "keywords": ["Software Developer"]
     },
     {
       "name": "REST API",
-      "level": 85,
+      "level": "Advanced",
       "keywords": ["Software Developer"]
     },
     {
       "name": "Unit Testing",
-      "level": 80,
+      "level": "Intermediate",
       "keywords": ["Software Developer"]
     },
     {
       "name": "MySQL",
-      "level": 60,
+      "level": "Intermediate",
       "keywords": ["Software Developer"]
     },
     {
       "name": "MongoDB",
-      "level": 60,
+      "level": "Intermediate",
       "keywords": ["Software Developer"]
     }
   ],
