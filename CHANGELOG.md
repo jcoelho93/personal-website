@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+ - Personal photo
+
 ##  [1.3.0] - 2019-01-28
 ### Changed
  - Skills progress bar displays skill level instead of percentages. One of the following:
