@@ -32,6 +32,12 @@ class Articles extends Component{
                         </div>
                     )
                 });
+                var offset = 4 - data.length
+                for(var i = 0; i < offset; i++){
+                    articles.push(
+                        <div className="column"></div>
+                    )
+                }
                 this.setState({articles: articles})
             })
 
