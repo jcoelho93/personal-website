@@ -13,11 +13,11 @@ class Articles extends Component{
         const devTo = "https://dev.to/api/articles?username=jcoelho"
 
         fetch(devTo)
-            .then(response => {
+            .then((response) => {
                 return response.json()
             })
-            .then(data => {
-                let articles = []
+            .then((data) => {
+                let articles = [];
                 data = data.slice(0,4)
                 data.forEach((element, index) => {
                     articles.push(
