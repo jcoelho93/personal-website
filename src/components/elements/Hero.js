@@ -1,6 +1,6 @@
-import React from "react"
-import NavBar from "./NavBar"
-import Resume from "../../resume.json"
+import React from "react";
+import NavBar from "./NavBar";
+import Resume from "../../resume.json";
 
 function Hero() {
     return (
@@ -35,7 +35,7 @@ function Hero() {
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
-export default Hero
+export default Hero;

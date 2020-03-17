@@ -1,5 +1,5 @@
-import React from "react"
-import ProgressBar from "./ProgressBar"
+import React from "react";
+import ProgressBar from "./ProgressBar";
 
 function SkillsList(props) {
     const skills = props.skills
@@ -7,7 +7,7 @@ function SkillsList(props) {
         <ul className="skill-list">
             {buildSkills(skills)}
         </ul>
-    )
+    );
 }
 
 function buildSkills(skills){
@@ -20,10 +20,10 @@ function buildSkills(skills){
                 text={key}
                 level={value}
             />
-        </li>)
+        </li>);
         counter++
     })
-    return progressBars
+    return progressBars;
 }
 
-export default SkillsList
+export default SkillsList;

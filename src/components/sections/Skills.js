@@ -16,7 +16,7 @@ function Skills() {
                             <h2 className="title is-5">DevOps</h2>
                         </div>
                         <SkillsList skills = {
-                            Resume.skills.filter(skill => skill.keywords.includes('DevOps')).reduce((obj,item) => ((obj[item.name] = item.level, obj)),{})
+                            Resume.skills.filter(skill => skill.keywords.includes("DevOps")).reduce((obj,item) => ((obj[item.name] = item.level, obj)),{})
                         } />
                     </div>
                     <div className="column is-6">
@@ -27,13 +27,13 @@ function Skills() {
                             <h2 className="title is-5">Software Development</h2>
                         </div>
                         <SkillsList skills = {
-                            Resume.skills.filter(skill => skill.keywords.includes('Software Developer')).reduce((obj,item) => ((obj[item.name] = item.level, obj)),{})
+                            Resume.skills.filter(skill => skill.keywords.includes("Software Developer")).reduce((obj,item) => ((obj[item.name] = item.level, obj)),{})
                         } />
                     </div>
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
-export default Skills
+export default Skills;
