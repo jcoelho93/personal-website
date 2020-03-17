@@ -14,14 +14,13 @@ If you improve the app in any way a PR would be very apreciated ;)
 
 ## Build
 
-1. Clone the repo:
+ 1. Clone the repo:
 ```console
 > git clone https://github.com/jcoelho93/personal-website.git
 ```
 
-2. Update the ´resume.json´ with your personal information (check [JSON Resume](https://jsonresume.org/))
-
-3. Install dependencies and run build command:
+ 2. Update the ´resume.json´ with your personal information (check [JSON Resume](https://jsonresume.org/))
+ 3. Install dependencies and run build command:
 ```console
 > npm install
 > npm run build
