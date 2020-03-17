@@ -24,7 +24,7 @@ function Article(props) {
                 <a href={props.url} target="blank">Read the full article</a>
             </div>
         </div>
-    )
+    );
 }
 
 export default Article
