@@ -13,14 +13,14 @@ function Timeline() {
                 <div className="timeline-content"></div>
             </div>
             {
-                Resume.work.map((item) => {return new Date(item.startDate).getFullYear()}).map((year, index) => {
+                Resume.work.map((item) => {return new Date(item.startDate).getFullYear()}).map((year, i) => {
                     let content = []
-                    content.push(<header key={index} className="timeline-header">
+                    content.push(<header key={i} className="timeline-header">
                                     <span className="tag is-success">{year}</span>
                                    </header>)
-                    content.push(Resume.work.filter(work => new Date(work.startDate).getFullYear() === year).map((item, index) => {
+                    content.push(Resume.work.filter(work => new Date(work.startDate).getFullYear() === year).map((item, j) => {
                             return <TimelineItem 
-                                        key = {index}
+                                        key = {j}
                                         date = {new Date(item.startDate).toLocaleString('en-UK', {month:'long', year: 'numeric'})}
                                         company = {item.company}
                                         summary = {item.summary}
