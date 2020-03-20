@@ -1,29 +1,23 @@
-import React from "react"
-import ProgressBar from "./ProgressBar"
+import React from "react";
+import ProgressBar from "./ProgressBar";
 
 function SkillsList(props) {
-    const skills = props.skills
-    return (
-        <ul className="skill-list">
-            {buildSkills(skills)}
-        </ul>
-    )
+  const skills = props.skills;
+  return <ul className="skill-list">{buildSkills(skills)}</ul>;
 }
 
-function buildSkills(skills){
-    let progressBars = []
-    let counter = 0
-    Object.entries(skills).forEach(([key, value]) => {
-        progressBars.push(<li key={counter}>
-            <ProgressBar
-                key={counter}
-                text={key}
-                level={value}
-            />
-        </li>)
-        counter++
-    })
-    return progressBars
+function buildSkills(skills) {
+  let progressBars = [];
+  let counter = 0;
+  Object.entries(skills).forEach(([key, value]) => {
+    progressBars.push(
+      <li key={counter}>
+        <ProgressBar key={counter} text={key} level={value} />
+      </li>
+    );
+    counter++;
+  });
+  return progressBars;
 }
 
-export default SkillsList
+export default SkillsList;
