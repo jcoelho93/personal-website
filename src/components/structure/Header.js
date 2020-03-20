@@ -1,12 +1,12 @@
-import React from "react"
-import Hero from "../elements/Hero"
+import React from "react";
+import Hero from "../elements/Hero";
 
 function Header() {
-    return(
-        <header>
-            <Hero />
-        </header>
-    )
+  return (
+    <header>
+      <Hero />
+    </header>
+  );
 }
 
-export default Header
+export default Header;
