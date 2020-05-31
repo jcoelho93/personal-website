@@ -13,6 +13,7 @@ function AboutMe() {
             src={Resume.basics.picture}
             alt={Resume.basics.name}
             className="is-rounded"
+            onError={(e)=>{e.target.onerror = null; e.target.src=Resume.basics.pictureFallback}}
           />
         </figure>
         <p className="subtitle is-4 has-text-white has-text-weight-bold">
