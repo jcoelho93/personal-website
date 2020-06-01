@@ -9,7 +9,7 @@ html {
     margin: 30px 0 0 0;
 }
 .has-bg-image {
-    background-image: url('../images/cover10.JPG');
+    background-image: url('../images/cover10.webp'), url('../images/cover10.JPG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
