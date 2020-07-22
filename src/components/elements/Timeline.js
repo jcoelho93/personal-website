@@ -4,8 +4,9 @@ import Resume from "../../resume.json";
 
 function Timeline() {
   let years= new Set();  
-  Resume.work.map( (item,i) => {
+  Resume.work.forEach(item => {
     years.add(new Date(item.startDate).getFullYear())
+    
   });
   let years_list = [...years]
   return (
