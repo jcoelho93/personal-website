@@ -53,6 +53,15 @@
     },
     {
       "company": "Asseco PST",
+      "position": "DevOps Engineer2",
+      "website": "https://www.pst.asseco.com",
+      "startDate": "2018-05-01",
+      "endDate": "2019-08-30",
+      "summary": "Joined Asseco PST DevOps team to help them deliver happiness to their customers",
+      "highlights": []
+    },
+    {
+      "company": "Asseco PST",
       "position": "Backend Developer",
       "website": "https://www.pst.asseco.com",
       "startDate": "2017-08-16",
