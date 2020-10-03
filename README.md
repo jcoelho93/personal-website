@@ -28,13 +28,13 @@ If you improve the app in any way a PR would be very apreciated ;)
 > npm run build
 ```
 
-You can also test the app with a development server, just run:
+You can also test the app with a development server, you have to just run:
 
 ```console
 > npm start
 ```
 
-## Contributing
+## Contributing 
 
 Feel free to fork this project and customize with your personal info. If you implement any nice features or improvements I'd really appreciate if you could open a PR to this project ;)
 
