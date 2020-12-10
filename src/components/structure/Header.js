@@ -1,10 +1,10 @@
 import React from "react";
 import Hero from "../elements/Hero";
 
-function Header() {
+function Header(props) {
   return (
     <header>
-      <Hero />
+      <Hero text={props.text} language={props.language} handleLanguageClick={props.handleLanguageClick}/>
     </header>
   );
 }

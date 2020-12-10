@@ -1,6 +1,8 @@
 import React from "react";
 import MenuItem from "./MenuItem";
+import Dropdown from "./Dropdown";
 import Resume from "../../resume.json";
+import Translations from "../../translations.json";
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -15,6 +17,7 @@ class NavBar extends React.Component {
   }
 
   render() {
+    
     return (
       <nav className="navbar is-transparent">
         <div className="container">
@@ -22,6 +25,7 @@ class NavBar extends React.Component {
             <a href="/" className="navbar-item title is-unselectable my-name">
               {Resume.basics.name}
             </a>
+            
             <span
               className="navbar-burger burger"
               onClick={this.handleMenuClick}
@@ -31,6 +35,7 @@ class NavBar extends React.Component {
               <span></span>
             </span>
           </div>
+          
           <div
             className={
               "navbar-menu nav-menu " +
@@ -38,10 +43,11 @@ class NavBar extends React.Component {
             }
           >
             <div className="navbar-end" onClick={this.handleMenuClick}>
-              <MenuItem text="About Me" href="#aboutMe" />
-              <MenuItem text="Skills" href="#skills" />
-              <MenuItem text="Experience" href="#experience" />
-              <MenuItem text="Articles" href="#articles" />
+              <Dropdown language={this.props.language} handleLanguageClick={this.props.handleLanguageClick}/>
+              <MenuItem text={this.props.text.aboutme} href="#aboutMe" />
+              <MenuItem text={this.props.text.skills} href="#skills" />
+              <MenuItem text={this.props.text.exp} href="#experience" />
+              <MenuItem text={this.props.text.articles.title} href="#articles" />
             </div>
           </div>
         </div>

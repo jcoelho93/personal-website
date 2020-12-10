@@ -1,8 +1,9 @@
 import React from "react";
 import Badge from "../elements/Badge";
 import Resume from "../../resume.json";
+import Translations from "../../translations.json";
 
-function AboutMe() {
+function AboutMe(props) {
   return (
     <section className="section has-background-link" id="aboutMe">
       <div className="container has-text-centered">
@@ -17,14 +18,14 @@ function AboutMe() {
           />
         </figure>
         <p className="subtitle is-4 has-text-white has-text-weight-bold">
-          {Resume.basics.x_title}
+          {Translations[props.language].basics.x_title}
         </p>
         <p className="subtitle is-5 has-text-white has-text-weight-light summary-text">
-          {Resume.basics.summary}
+          {Translations[props.language].basics.summary}
         </p>
         <div className="container interests">
           <div className="field is-grouped is-grouped-multiline has-text-centered">
-            {Resume.interests.map((value, index) => {
+            {Translations[props.language].interests.map((value, index) => {
               return (
                 <Badge key={index} text={value.name} faIcon={value.x_icon} />
               );

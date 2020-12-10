@@ -1,8 +1,8 @@
 import React from "react";
 import TimelineItem from "./TimelineItem";
-import Resume from "../../resume.json";
+import Translations from "../../translations.json";
 
-function Timeline() {
+function Timeline(props) {
   return (
     <div className="timeline is-centered">
       <header className="timeline-header">
@@ -14,7 +14,7 @@ function Timeline() {
         <div className="timeline-marker is-success"></div>
         <div className="timeline-content"></div>
       </div>
-      {Resume.work
+      {Translations[props.language].work
         .map(item => {
           return new Date(item.startDate).getFullYear();
         })
@@ -26,7 +26,7 @@ function Timeline() {
             </header>
           );
           content.push(
-            Resume.work
+            Translations[props.language].work
               .filter(work => new Date(work.startDate).getFullYear() === year)
               .map((item, j) => {
                 return (

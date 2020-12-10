@@ -42,8 +42,8 @@ class Articles extends Component {
     return (
       <section className="section" id="articles">
         <div className="container">
-          <h1 className="title">Articles</h1>
-          <h2 className="subtitle is-4">My latest articles</h2>
+          <h1 className="title">{this.props.text.articles.title}</h1>
+          <h2 className="subtitle is-4">{this.props.text.articles.description}</h2>
           <div className="columns">{this.state.articles}</div>
         </div>
       </section>

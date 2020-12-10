@@ -1,0 +1,235 @@
+{
+  "English": {
+    "basics": {
+      "name": "José Coelho",
+      "label": "DevOps Engineer",
+      "x_title": "Hey There! Glad you're here",
+      "summary": "Going on 4 years of experience in IT. Currently I’m working as a developer exploring the DevOps world. I’m interested in service management, all sorts of automation and developing front-end and back-end applications.",
+      "location": {
+        "country": "Hungary",
+        "countryCode": "HU",
+        "region": "Budapest"
+      },
+      "text": {
+        "aboutme": "About Me",
+        "skills": "Skills",
+        "exp": "Experiences",
+        "articles": {
+          "title": "Articles",
+          "description": "My latest articles"
+        },
+        "intro": "I'm a",
+        "footer1": "Built at",
+        "footer2": "By"
+      },
+      "flag_img": "images/eng.svg"
+    },
+    "work": [
+      {
+        "company": "Bosch",
+        "position": "DevOps Engineer for automated driving",
+        "website": "https://www.bosch.hu",
+        "startDate": "2019-10-15",
+        "endDate": "",
+        "summary": "Joined the Athena project, a Bosch & Daimler effort to bring a level 4 autonomous car to the streets.",
+        "highlights": []
+      },
+      {
+        "company": "Asseco PST",
+        "position": "DevOps Engineer",
+        "website": "https://www.pst.asseco.com",
+        "startDate": "2018-04-01",
+        "endDate": "2019-08-30",
+        "summary": "Joined Asseco PST DevOps team to help them deliver happiness to their customers",
+        "highlights": []
+      },
+      {
+        "company": "Asseco PST",
+        "position": "Backend Developer",
+        "website": "https://www.pst.asseco.com",
+        "startDate": "2017-08-16",
+        "endDate": "",
+        "summary": "Started my first professional developer experience as a Backend Developer for Asseco PST",
+        "highlights": []
+      },
+      {
+        "company": "European GNSS Agency",
+        "position": "IT Support Technician",
+        "website": "https://www.gsa.europea.eu",
+        "startDate": "2016-05-01",
+        "endDate": "",
+        "summary": "Moved to Prague, Czech Republic to intern for the European Commission helping them build one of the biggest european projects, Galileo Satellite System",
+        "highlights": []
+      },
+      {
+        "company": "Empresa de Electricidade da Madeira",
+        "position": "IT Support Technician",
+        "website": "https://www.eem.pt",
+        "startDate": "2015-03-01",
+        "endDate": "",
+        "summary": "My first real work experience. Interning as an IT Support Technician I was able to learn and explore way more than the workings of a big IT Infrastructure. I got to work with PowerShell scripting, PHP and email marketing.",
+        "highlights": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Madeira",
+        "area": "Computer Engineering",
+        "studyType": "Bachelor",
+        "startDate": "2011-09-15",
+        "endDate": "2019-06-07",
+        "courses": [
+          "Object Oriented Programming",
+          "Database Management Systems",
+          "Operating systems and computers architectures",
+          "Requirements Engineering"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Fluent speaker"
+      },
+      {
+        "language": "Portuguese",
+        "fluency": "Native speaker"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Travel bug",
+        "x_icon": "fa-globe-africa"
+      },
+      {
+        "name": "Dog lover",
+        "x_icon": "fa-dog"
+      },
+      {
+        "name": "Foodie",
+        "x_icon": "fa-utensils"
+      },
+      {
+        "name": "Live in the now",
+        "x_icon": "fa-brain"
+      }
+    ]
+  },
+
+  "Português": {
+    "basics": {
+      "name": "José Coelho",
+      "label": "DevOps Engineer",
+      "x_title": "Olá! Que bom que você está aqui",
+      "summary": "Saindo de 4 anos de experiência em TI. Atualmente estou trabalhando como desenvolvedor explorando o mundo DevOps. Estou interessado em gerenciamento de serviços, todos os tipos de automação e desenvolvimento de aplicativos front-end e back-end.",
+      "location": {
+        "country": "Hungria",
+        "countryCode": "HU",
+        "region": "Budapest"
+      },
+      "text": {
+        "aboutme": "Sobre Mim",
+        "skills": "Habilidades",
+        "exp": "Experiências",
+        "articles": {
+          "title": "Artigos",
+          "description": "Meus últimos artigos"
+        },
+        "intro": "Eu sou",
+        "footer1": "Construído em",
+        "footer2": "por"
+      },
+      "flag_img": "images/pt.svg"
+    },
+    "work": [
+      {
+        "company": "Bosch",
+        "position": "DevOps Engineer para direção automatizada",
+        "website": "https://www.bosch.hu",
+        "startDate": "2019-10-15",
+        "endDate": "",
+        "summary": "Juntou-se ao projeto Athena, um esforço da Bosch & Daimler para levar um carro autônomo de nível 4 para as ruas.",
+        "highlights": []
+      },
+      {
+        "company": "Asseco PST",
+        "position": "DevOps Engineer",
+        "website": "https://www.pst.asseco.com",
+        "startDate": "2018-04-01",
+        "endDate": "2019-08-30",
+        "summary": "Ingressou na equipe de DevOps da Asseco PST para ajudá-los a proporcionar felicidade aos seus clientes",
+        "highlights": []
+      },
+      {
+        "company": "Asseco PST",
+        "position": "Desenvolvedor Backend",
+        "website": "https://www.pst.asseco.com",
+        "startDate": "2017-08-16",
+        "endDate": "",
+        "summary": "Comecei minha primeira experiência profissional de desenvolvedor como desenvolvedor de back-end para Asseco PST",
+        "highlights": []
+      },
+      {
+        "company": "European GNSS Agency",
+        "position": "Técnico de Suporte de TI",
+        "website": "https://www.gsa.europea.eu",
+        "startDate": "2016-05-01",
+        "endDate": "",
+        "summary": "Mudou-se para Praga, República Tcheca, para estagiar na Comissão Europeia, ajudando-os a construir um dos maiores projetos europeus, o Sistema de Satélite Galileo",
+        "highlights": []
+      },
+      {
+        "company": "Empresa de Electricidade da Madeira",
+        "position": "IT Support Technician",
+        "website": "https://www.eem.pt",
+        "startDate": "2015-03-01",
+        "endDate": "",
+        "summary": "Minha primeira experiência real de trabalho. Estagiando como Técnico de Suporte de TI, pude aprender e explorar muito mais do que o funcionamento de uma grande infraestrutura de TI. Comecei a trabalhar com scripts do PowerShell, PHP e marketing por email.",
+        "highlights": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "Universidade da Madeira",
+        "area": "Engenharia Informática",
+        "studyType": "Bacharel",
+        "startDate": "2011-09-15",
+        "endDate": "2019-06-07",
+        "courses": [
+          "Object Oriented Programming",
+          "Database Management Systems",
+          "Operating systems and computers architectures",
+          "Requirements Engineering"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Fluent speaker"
+      },
+      {
+        "language": "Portuguese",
+        "fluency": "Native speaker"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Viajante",
+        "x_icon": "fa-globe-africa"
+      },
+      {
+        "name": "Amante de cães",
+        "x_icon": "fa-dog"
+      },
+      {
+        "name": "Viciado em comida",
+        "x_icon": "fa-utensils"
+      },
+      {
+        "name": "Ao vivo agora",
+        "x_icon": "fa-brain"
+      }
+    ]
+  }
+}

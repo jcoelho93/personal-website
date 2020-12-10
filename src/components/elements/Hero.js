@@ -1,19 +1,20 @@
 import React from "react";
 import NavBar from "./NavBar";
+import Translations from "../../translations.json";
 import Resume from "../../resume.json";
 
-function Hero() {
+function Hero(props) {
   return (
     <section className="hero is-dark is-fullheight has-bg-image">
       <div className="hero-head">
-        <NavBar />
+        <NavBar text={props.text} language={props.language} handleLanguageClick={props.handleLanguageClick}/>
       </div>
       <div className="hero-body">
         <div className="container">
-          <p className="subtitle is-5 has-text-weight-light">I'm a</p>
-          <h1 className="title">{Resume.basics.label}</h1>
+          <p className="subtitle is-5 has-text-weight-light">{props.text.intro}</p>
+          <h1 className="title">{Translations[props.language].basics.label}</h1>
           <h2 className="subtitle">
-            {Resume.basics.location.region}, {Resume.basics.location.country}
+            {Translations[props.language].basics.location.region}, {Translations[props.language].basics.location.country}
           </h2>
         </div>
       </div>

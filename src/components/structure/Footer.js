@@ -1,11 +1,11 @@
 import React from "react";
 
-function Footer() {
+function Footer(props) {
   return (
     <footer className="footer has-background-link">
       <div className="content has-text-centered has-text-white">
         <p>
-          Built at <i className="fas fa-moon"></i> by{" "}
+          {props.text.footer1} <i className="fas fa-moon"></i> {props.text.footer2 + " "}
           <a href="https://github.com/jcoelho93" className="has-text-white">
             <strong>José Coelho</strong>
           </a>

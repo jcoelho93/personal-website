@@ -4,13 +4,13 @@ import Skills from "../sections/Skills";
 import Experience from "../sections/Experience";
 import Articles from "../sections/Articles";
 
-function Content() {
+function Content(props) {
   return (
     <main>
-      <AboutMe />
-      <Skills />
-      <Experience />
-      <Articles />
+      <AboutMe text={props.text} language={props.language}/>
+      <Skills text={props.text} language={props.language}/>
+      <Experience text={props.text} language={props.language}/>
+      <Articles text={props.text} language={props.language}/>
     </main>
   );
 }

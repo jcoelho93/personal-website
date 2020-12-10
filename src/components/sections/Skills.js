@@ -2,11 +2,11 @@ import React from "react";
 import SkillsList from "../elements/SkillsList";
 import Resume from "../../resume.json";
 
-function Skills() {
+function Skills(props) {
   return (
     <section className="section" id="skills">
       <div className="container">
-        <h1 className="title">Skills</h1>
+        <h1 className="title">{props.text.skills}</h1>
         <div className="columns">
           <div className="column is-6">
             <div className="has-text-centered">

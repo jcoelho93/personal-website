@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "flag-icon-css": "^3.5.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "^3.4.0"
+    "react-scripts": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
