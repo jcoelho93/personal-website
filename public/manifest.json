@@ -1,7 +1,12 @@
 {
-  "short_name": "José Coelho",
-  "name": "José Coelho | DevOps Engineer | Madeira Island, Portugal",
+  "short_name": "Chris Staykov",
+  "name": "Chris Staykov | Systems Design Engineer",
   "icons": [
+    {
+      "src": "images/favicon/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
     {
       "src": "images/favicon/android-chrome-192x192.png",
       "sizes": "192x192",
