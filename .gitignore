@@ -4,6 +4,9 @@
 # misc
 .DS_Store
 
+# local favicon files
+favicon.paint
+
 # Logs
 logs
 *.log
