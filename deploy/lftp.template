@@ -1,8 +1,0 @@
-set ftp:ssl-allow no
-debug
-connect $FTP_HOST
-user $FTP_USER $FTP_PASS
-ls
-glob -a rm -r *(D)
-mirror -R build .
-quit
