@@ -7,6 +7,8 @@ jobs:
       - node/install-packages:
           cache-path: ~/project/node_modules
       - run: npm run build
+      - run: ./deploy/deploy.sh
+
 orbs:
   node: circleci/node@4.1.0
 workflows:
