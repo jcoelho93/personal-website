@@ -4,12 +4,11 @@
 pwd
 ls
 ls build
+cd deploy
 
-lftp -u $FTP_USER,$FTP_PASS $FTP_HOST <<END_SCRIPT
-set ftp:ssl-allow no
-debug
-glob -a rm -r *(D)
-mirror -R build .
-quit
-END_SCRIPT
-exit 0
+envsubst < lftp.template > lftp
+
+lftp -f lftp
+
+rm lftp
+exit
