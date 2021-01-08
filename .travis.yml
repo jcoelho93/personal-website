@@ -1,8 +1,6 @@
 language: node_js
 node_js:
   - 15
-env:
-  CI: false
 
 install: npm ci
 script: npm run build
