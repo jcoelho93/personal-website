@@ -81,10 +81,9 @@
       "startDate": "2017-09-01",
       "endDate": "2022-04-30",
       "courses": [
-        "Object Oriented Programming",
-        "Database Management Systems",
-        "Operating systems and computers architectures",
-        "Requirements Engineering"
+        "Data Structures and Algorithms",
+        "Machine Inteligence",
+        "Introduction to Pattern Recognition"
       ]
     }
   ],
@@ -158,16 +157,6 @@
       "name": "MongoDB",
       "level": "Intermediate",
       "keywords": ["Software Developer"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent speaker"
-    },
-    {
-      "language": "Portuguese",
-      "fluency": "Native speaker"
     }
   ],
   "interests": [

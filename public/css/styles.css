@@ -1,5 +1,7 @@
-html {
-    scroll-behavior: smooth;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    /* scroll-behavior: smooth; */
 }
 .is-180x180{
     height: 180px;
