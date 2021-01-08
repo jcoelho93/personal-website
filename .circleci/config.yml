@@ -1,0 +1,15 @@
+version: 2.1
+jobs:
+  deploy:
+    executor: node/default
+    steps:
+      - checkout
+      - node/install-packages:
+          cache-path: ~/project/node_modules
+      - run: npm run build
+orbs:
+  node: circleci/node@4.1.0
+workflows:
+  deploy:
+    jobs:
+      - deploy
