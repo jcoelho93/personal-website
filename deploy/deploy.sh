@@ -4,11 +4,11 @@
 pwd
 ls
 ls build
-cd deploy
 
-envsubst < lftp.template > lftp
-
-lftp -f lftp
-
-rm lftp
+ftp -inv <<END_SCRIPT
+open $FTP_HOST
+user $FTP_USER $FTP_PASS
+ls
+quit
+END_SCRIPT
 exit
