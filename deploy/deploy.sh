@@ -1,9 +1,8 @@
 #!/bin/sh
 ## Update files on FTP server
 
-pwd
-ls
-ls build
+sudo apt-get update
+sudo apt-get install -y ftp
 
 ftp -inv <<END_SCRIPT
 open $FTP_HOST
