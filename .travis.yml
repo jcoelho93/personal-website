@@ -2,6 +2,9 @@ language: node_js
 node_js:
   - 15
 
+before_install:
+  - sudo apt-get update
+  - sudo apt-get -y install lftp
 install: npm ci
 script: npm run build
 deploy:
