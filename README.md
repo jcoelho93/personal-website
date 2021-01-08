@@ -1,11 +1,6 @@
 # Chris Staykov Personal website
 
-<!---
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jcoelho93_personal-website&metric=alert_status)](https://sonarcloud.io/dashboard?id=jcoelho93_personal-website)
--->
-<!---
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d32b64a2-9f48-4a26-b0d3-21cdf5548ec6/deploy-status)](https://app.netlify.com/sites/jcoelho93/deploys)
--->
+[![Build Status](https://travis-ci.com/cstaykov/personal-website.svg?branch=master)](https://travis-ci.com/cstaykov/personal-website)
 
 This is my personal website built using ReactJS and Bulma as the CSS framework. [Live here](https://chrisstaykov.com).
 
