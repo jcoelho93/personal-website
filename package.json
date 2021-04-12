@@ -1,6 +1,6 @@
 {
-  "name": "jcoelho-github",
-  "version": "0.1.0",
+  "name": "personal-website",
+  "version": "1.3.3",
   "private": true,
   "dependencies": {
     "react": "^16.8.4",
