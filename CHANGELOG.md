@@ -9,11 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-
 - Github link to author name
 
-### Removed
+### Fixed
+- Bug in the experience Timeline, that would display duplicated entries for the same year
 
+### Removed
 - Codacy integration
 
 ## [1.3.2] - 2020-03-15
