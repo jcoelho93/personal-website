@@ -1,5 +1,6 @@
 import React from "react";
 import TimelineItem from "./TimelineItem";
+import TimelineHeader from "./TimelineHeader";
 import Resume from "../../resume.json";
 
 function Timeline() {
@@ -17,13 +18,11 @@ function Timeline() {
       {Resume.work
         .map(item => {
           return new Date(item.startDate).getFullYear();
-        })
+        }).filter((value, index, self) => self.indexOf(value) === index)
         .map((year, i) => {
           let content = [];
           content.push(
-            <header key={i} className="timeline-header">
-              <span className="tag is-success">{year}</span>
-            </header>
+            <TimelineHeader key={i} year={year}/>
           );
           content.push(
             Resume.work
