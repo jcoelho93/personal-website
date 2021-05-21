@@ -34,6 +34,15 @@
   },
   "work": [
     {
+      "company": "feedzai",
+      "position": "Software Engineer",
+      "website": "https://feedzai.com",
+      "startDate": "2021-04-26",
+      "endDate": "",
+      "summary": "The first startup in my professional path, feedzai - a Unicorn 🦄 - fighting financial crime and fraude",
+      "highlights": []
+    },
+    {
       "company": "Self-employed",
       "position": "Software development consultant",
       "website": "https://jcoelho93.netlify.com",
