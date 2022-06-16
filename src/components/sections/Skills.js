@@ -8,7 +8,7 @@ function Skills() {
       <div className="container">
         <h1 className="title">Skills</h1>
         <div className="columns">
-          <div className="column is-6">
+          <div className="column is-6" style={{padding: "90px"}}>
             <div className="has-text-centered">
               <span className="icon has-text-link">
                 <i className="fas fa-3x fa-cogs"></i>
@@ -22,9 +22,9 @@ function Skills() {
                   obj[item.name] = item.level;
                   return obj;
                 }, {})}
-            />
+            />  
           </div>
-          <div className="column is-6">
+          <div className="column is-6" style={{padding: "90px"}}>
             <div className="has-text-centered">
               <span className="icon has-text-link">
                 <i className="fas fa-3x fa-laptop-code"></i>
