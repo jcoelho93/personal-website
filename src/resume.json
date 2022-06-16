@@ -16,7 +16,7 @@
         "network": "DEV Community",
         "username": "jcoelho",
         "url": "https://dev.to/jcoelho",
-        "x_icon":"fab fa-2x fa-dev"
+        "x_icon": "fab fa-2x fa-dev"
       },
       {
         "network": "LinkedIn",
@@ -114,74 +114,102 @@
   ],
   "skills": [
     {
-      "name": "Jenkins",
+      "name": "Configuration Management",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "keywords": [
+        "DevOps"
+      ]
     },
     {
       "name": "Continuous Integration",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "keywords": [
+        "DevOps"
+      ]
     },
     {
       "name": "Scripting",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "keywords": [
+        "DevOps"
+      ]
     },
     {
       "name": "Containers",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "keywords": [
+        "DevOps"
+      ]
     },
     {
       "name": "Cloud",
-      "level": "Basic",
-      "keywords": ["DevOps"]
+      "level": "Advanced",
+      "keywords": [
+        "DevOps"
+      ]
     },
     {
       "name": "Troubleshooting",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "keywords": [
+        "DevOps"
+      ]
     },
     {
       "name": "Infrastructure as Code",
-      "level": "Intermediate",
-      "keywords": ["DevOps"]
+      "level": "Advanced",
+      "keywords": [
+        "DevOps"
+      ]
     },
     {
       "name": "Object Oriented Programming",
       "level": "Advanced",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     },
     {
       "name": "Design Patterns",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     },
     {
       "name": "Git",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     },
     {
       "name": "REST API",
       "level": "Advanced",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     },
     {
       "name": "Unit Testing",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     },
     {
       "name": "MySQL",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     },
     {
       "name": "MongoDB",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     }
   ],
   "languages": [
@@ -192,6 +220,24 @@
     {
       "language": "Portuguese",
       "fluency": "Native speaker"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Solutions Architect Associate",
+      "issuer": "Amazon Web Services Training and Certification",
+      "url": "https://www.credly.com/badges/263d35c5-83db-4f93-97a4-a84ee806da90/public_url",
+      "x_badgeId": "263d35c5-83db-4f93-97a4-a84ee806da90",
+      "x_imageId": "0e284c3f-5164-4b21-8660-0d84737941bc",
+      "x_imageName": "image.png"
+    },
+    {
+      "name": "Certified Kubernetes Application Developer",
+      "issuer": "The Linux Foundation",
+      "url": "https://www.credly.com/badges/263d35c5-83db-4f93-97a4-a84ee806da90/public_url",
+      "x_badgeId": "263d35c5-83db-4f93-97a4-a84ee806da90",
+      "x_imageId": "f88d800c-5261-45c6-9515-0458e31c3e16",
+      "x_imageName": "ckad_from_cncfsite.png"
     }
   ],
   "interests": [
