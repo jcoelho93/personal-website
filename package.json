@@ -7,6 +7,10 @@
     "react-dom": "^16.8.4",
     "react-scripts": "^3.4.0"
   },
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.11.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
