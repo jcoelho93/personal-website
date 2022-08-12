@@ -6,9 +6,9 @@ function buildBadges(certificates){
     let credlyBadges = []
     let columnSize = 12 / certificates.length;
     let columnClass = "column has-text-centered is-" + columnSize;
-    certificates.forEach((cert) => {
+    certificates.forEach((cert, index) => {
         credlyBadges.push(
-            <div class={columnClass}>
+            <div key={index} className={columnClass}>
                 <CredlyBadge
                     width="186"
                     height="186"
@@ -25,9 +25,9 @@ function buildBadges(certificates){
 
 function Badges(props) {
     return (
-        <section class="section" id="badges">
-            <div class="container">
-                <div class="columns is-centered">
+        <section className="section" id="badges">
+            <div className="container">
+                <div className="columns is-centered">
                     {buildBadges(Resume.certificates)}
                 </div>
             </div>
