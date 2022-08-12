@@ -114,102 +114,44 @@
   ],
   "skills": [
     {
-      "name": "Configuration Management",
-      "level": "Advanced",
-      "keywords": [
-        "DevOps"
-      ]
-    },
-    {
-      "name": "Continuous Integration",
-      "level": "Advanced",
-      "keywords": [
-        "DevOps"
-      ]
-    },
-    {
-      "name": "Scripting",
-      "level": "Advanced",
-      "keywords": [
-        "DevOps"
-      ]
-    },
-    {
-      "name": "Containers",
-      "level": "Advanced",
-      "keywords": [
-        "DevOps"
-      ]
-    },
-    {
-      "name": "Cloud",
-      "level": "Advanced",
-      "keywords": [
-        "DevOps"
-      ]
-    },
-    {
-      "name": "Troubleshooting",
-      "level": "Advanced",
-      "keywords": [
-        "DevOps"
-      ]
+      "name": "AWS",
+      "x_icon": "fa-brands fa-aws",
+      "x_description": "EC2, VPC, Cognito, CloudFormation, RDS, S3, CloudFront, IAM"
     },
     {
       "name": "Infrastructure as Code",
-      "level": "Advanced",
-      "keywords": [
-        "DevOps"
-      ]
+      "x_icon": "fa-code",
+      "x_description": "Terraform, Packer, Vagrant"
     },
     {
-      "name": "Object Oriented Programming",
-      "level": "Advanced",
-      "keywords": [
-        "Software Developer"
-      ]
+      "name": "Configuration Management",
+      "x_icon": "fa-gears",
+      "x_description": "Ansible, OpsWorks"
     },
     {
-      "name": "Design Patterns",
-      "level": "Intermediate",
-      "keywords": [
-        "Software Developer"
-      ]
+      "name": "CI/CD",
+      "x_icon": "fa-infinity",
+      "x_description": "Jenkins, GitLab CI"
     },
     {
-      "name": "Git",
-      "level": "Intermediate",
-      "keywords": [
-        "Software Developer"
-      ]
+      "name": "Python",
+      "x_icon": "fa-brands fa-python",
+      "x_description": "Scripting"
     },
     {
-      "name": "REST API",
-      "level": "Advanced",
-      "keywords": [
-        "Software Developer"
-      ]
+      "name": "Monitoring",
+      "x_icon": "fa-chart-line",
+      "x_description": "Telegraf, InfluxDB, Grafana"
     },
     {
-      "name": "Unit Testing",
-      "level": "Intermediate",
-      "keywords": [
-        "Software Developer"
-      ]
+      "name": "Serverless",
+      "x_icon": "fa-bolt",
+      "x_description": "Lambda functions"
     },
     {
-      "name": "MySQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Software Developer"
-      ]
-    },
-    {
-      "name": "MongoDB",
-      "level": "Intermediate",
-      "keywords": [
-        "Software Developer"
-      ]
+      "name": "Containers",
+      "x_icon": "fa-brands fa-docker",
+      "x_description": "Docker, docker-compose, kubernetes"
     }
   ],
   "languages": [

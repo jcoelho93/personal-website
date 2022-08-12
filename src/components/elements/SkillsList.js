@@ -1,23 +1,24 @@
 import React from "react";
-import ProgressBar from "./ProgressBar";
+import Skill from "./Skill";
+
+
+function buildSkills(skills){
+  let skillsList = []
+  skills.forEach((skill, index) => {
+    skillsList.push(
+      <Skill
+        key={index}
+        text={skill.name}
+        icon={skill.icon}
+      />
+    )
+  });
+  return skillsList
+}
 
 function SkillsList(props) {
   const skills = props.skills;
   return <ul className="skill-list">{buildSkills(skills)}</ul>;
-}
-
-function buildSkills(skills) {
-  let progressBars = [];
-  let counter = 0;
-  Object.entries(skills).forEach(([key, value]) => {
-    progressBars.push(
-      <li key={counter}>
-        <ProgressBar key={counter} text={key} level={value} />
-      </li>
-    );
-    counter++;
-  });
-  return progressBars;
 }
 
 export default SkillsList;

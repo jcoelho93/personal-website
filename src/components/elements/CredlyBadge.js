@@ -7,7 +7,7 @@ function CredlyBadge(props) {
   let imgLink =
     "https://www.credly.com/badges/" + props.badgeId + "/public_url";
   return (
-    <figure class="is-inline-block image">
+    <figure className="is-inline-block image">
       <a href={imgLink} target="_blank" rel="noopener noreferrer">
         <img src={imgSrc} alt={props.badgeName} />
       </a>

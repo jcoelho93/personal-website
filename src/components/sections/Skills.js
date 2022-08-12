@@ -1,6 +1,24 @@
 import React from "react";
 import SkillsList from "../elements/SkillsList";
 import Resume from "../../resume.json";
+import Skill from "../elements/Skill"
+
+function buildSkillsRow(skills, start, end) {
+  const batch = skills.slice(start, end);
+  let skillsComponents = [];
+  batch.forEach((value, indx) => {
+    skillsComponents.push(
+      <div key={indx} className="column is-3">
+        <Skill
+          text={value.name}
+          icon={value.x_icon}
+          description={value.x_description}
+        />
+      </div>
+    )
+  });
+  return skillsComponents;
+}
 
 function Skills() {
   return (
@@ -8,38 +26,10 @@ function Skills() {
       <div className="container">
         <h1 className="title">Skills</h1>
         <div className="columns">
-          <div className="column is-6" style={{padding: "90px"}}>
-            <div className="has-text-centered">
-              <span className="icon has-text-link">
-                <i className="fas fa-3x fa-cogs"></i>
-              </span>
-              <h2 className="title is-5">DevOps</h2>
-            </div>
-            <SkillsList
-              skills={Resume.skills
-                .filter(skill => skill.keywords.includes("DevOps"))
-                .reduce((obj, item) => {
-                  obj[item.name] = item.level;
-                  return obj;
-                }, {})}
-            />  
-          </div>
-          <div className="column is-6" style={{padding: "90px"}}>
-            <div className="has-text-centered">
-              <span className="icon has-text-link">
-                <i className="fas fa-3x fa-laptop-code"></i>
-              </span>
-              <h2 className="title is-5">Software Development</h2>
-            </div>
-            <SkillsList
-              skills={Resume.skills
-                .filter(skill => skill.keywords.includes("Software Developer"))
-                .reduce((obj, item) => {
-                  obj[item.name] = item.level;
-                  return obj;
-                }, {})}
-            />
-          </div>
+          {buildSkillsRow(Resume.skills, 0, 4)}
+        </div>
+        <div className="columns">
+          {buildSkillsRow(Resume.skills, 4, 8)}
         </div>
       </div>
     </section>

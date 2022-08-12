@@ -26,6 +26,15 @@ html {
     margin-right: auto;
     max-width: 36em;
 }
-.skill-percentage {
-	float: right;
+.article {
+    height: 100%;
+}
+.skill-card {
+    height: 100%;
+}
+.skill-title {
+    font-weight: bold;
+}
+.skill-icon {
+    padding: 20px;
 }

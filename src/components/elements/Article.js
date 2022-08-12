@@ -2,7 +2,7 @@ import React from "react";
 
 function Article(props) {
   return (
-    <div className="card">
+    <div className="card article">
       <div className="card-header">
         <a href={props.url} target="blank">
           <p className="card-header-title">{props.title}</p>
