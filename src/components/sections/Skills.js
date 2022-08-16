@@ -1,7 +1,7 @@
 import React from "react";
-import SkillsList from "../elements/SkillsList";
 import Resume from "../../resume.json";
 import Skill from "../elements/Skill"
+
 
 function buildSkillsRow(skills, start, end) {
   const batch = skills.slice(start, end);

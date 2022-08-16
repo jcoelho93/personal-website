@@ -23,9 +23,10 @@ function buildBadges(certificates){
     return credlyBadges
 }
 
-function Badges(props) {
+function Certifications(props) {
     return (
-        <section className="section" id="badges">
+        <section className="section" id="certifications">
+            <h1 className="title">Certifications</h1>
             <div className="container">
                 <div className="columns is-centered">
                     {buildBadges(Resume.certificates)}
@@ -35,4 +36,4 @@ function Badges(props) {
     )
 }
 
-export default Badges;
+export default Certifications;
