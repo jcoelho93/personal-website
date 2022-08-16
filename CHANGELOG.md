@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Certificates section
 
+### Changed
+- Skills display from progress bar to cards
+
 ## [1.3.3] - 2021-04-12
 ### Added
 - Github link to author name
