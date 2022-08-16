@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "José Coelho",
-    "label": "Software Engineer",
+    "label": "Cloud Engineer",
     "picture": "images/jcoelho.webp",
     "x_pictureFallback": "images/jcoelho.jpg",
     "x_title": "Hey There! Glad you're here",
-    "summary": "Going on 5 years of experience in IT. Currently I’m working as a developer exploring the DevOps world. I’m interested in service management, all sorts of automation and developing front-end and back-end applications.",
+    "summary": "Going on 7 years of experience in Software engineering. I'm currently working as a cloud engineer exploring the AWS world. I’m interested in building distributed, cloud native applications, service management, monitoring and site reliability engineering.",
     "location": {
       "country": "Portugal",
       "countryCode": "PT",
@@ -116,42 +116,42 @@
     {
       "name": "AWS",
       "x_icon": "fa-brands fa-aws",
-      "x_description": "EC2, VPC, Cognito, CloudFormation, RDS, S3, CloudFront, IAM"
+      "x_description": "EC2, VPC, Cognito, CloudFormation, RDS, S3, CloudFront, IAM and others"
     },
     {
       "name": "Infrastructure as Code",
       "x_icon": "fa-code",
-      "x_description": "Terraform, Packer, Vagrant"
+      "x_description": "Developing and maintaing infrastructure as code with Terraform, Packer and Vagrant"
     },
     {
       "name": "Configuration Management",
       "x_icon": "fa-gears",
-      "x_description": "Ansible, OpsWorks"
+      "x_description": "Launching, configuring and maintaining cloud environments with Ansible"
     },
     {
       "name": "CI/CD",
       "x_icon": "fa-infinity",
-      "x_description": "Jenkins, GitLab CI"
+      "x_description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
     },
     {
       "name": "Python",
       "x_icon": "fa-brands fa-python",
-      "x_description": "Scripting"
+      "x_description": "Writting deployment tools and scripts, and automating all possible tasks with Python"
     },
     {
       "name": "Monitoring",
       "x_icon": "fa-chart-line",
-      "x_description": "Telegraf, InfluxDB, Grafana"
+      "x_description": "Implementing centralized monitoring solution for cloud environments with Telegraf, InfluxDB and Grafana"
     },
     {
       "name": "Serverless",
       "x_icon": "fa-bolt",
-      "x_description": "Lambda functions"
+      "x_description": "Building reliable and cost efficient systems with Lambda functions and the serverless framework"
     },
     {
       "name": "Containers",
       "x_icon": "fa-brands fa-docker",
-      "x_description": "Docker, docker-compose, kubernetes"
+      "x_description": "Delivering and distributing applications and tools with Docker, docker-compose and kubernetes"
     }
   ],
   "languages": [
