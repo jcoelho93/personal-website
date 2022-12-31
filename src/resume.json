@@ -188,6 +188,14 @@
       "x_badgeId": "3b4c4056-b736-4a9b-bcad-5a8457ef72e1",
       "x_imageId": "f88d800c-5261-45c6-9515-0458e31c3e16",
       "x_imageName": "ckad_from_cncfsite.png"
+    },
+    {
+      "name": "Certificate of Cloud Security Knowledge",
+      "issuer": "Cloud Security Alliance",
+      "url": "https://www.credly.com/badges/a597b998-5019-46d9-a93f-47841ae3bd64/public_url",
+      "x_badgeId": "a597b998-5019-46d9-a93f-47841ae3bd64",
+      "x_imageId": "25ba8143-ac0a-413c-8c66-01c9edc4a80f",
+      "x_imageName": "CCSK-v4-Credly-badge.png"
     }
   ],
   "interests": [
