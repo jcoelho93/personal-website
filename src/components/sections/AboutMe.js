@@ -19,9 +19,8 @@ function AboutMe() {
         <p className="subtitle is-4 has-text-white has-text-weight-bold">
           {Resume.basics.x_title}
         </p>
-        <p className="subtitle is-5 has-text-white has-text-weight-light summary-text">
-          {Resume.basics.summary}
-        </p>
+        <div className="subtitle is-5 has-text-white has-text-weight-light summary-text" dangerouslySetInnerHTML={{__html: Resume.basics.summary}}>
+        </div>
         <div className="container interests">
           <div className="field is-grouped is-grouped-multiline has-text-centered">
             {Resume.interests.map((value, index) => {
