@@ -34,17 +34,26 @@
   },
   "work": [
     {
+      "company": "Mindera",
+      "position": "Site Reliability Engineer",
+      "website": "https://mindera.com",
+      "startDate": "2023-03-13",
+      "endDate": "",
+      "summary": "A self-organizing company, time to be my own boss.",
+      "highlights": []
+    },
+    {
       "company": "feedzai",
-      "position": "Software Engineer",
+      "position": "Cloud Engineer",
       "website": "https://feedzai.com",
       "startDate": "2021-04-26",
-      "endDate": "",
+      "endDate": "2023-03-11",
       "summary": "The first startup in my professional path, feedzai - a Unicorn 🦄 - fighting financial crime and fraude",
       "highlights": []
     },
     {
       "company": "Self-employed",
-      "position": "Software development consultant",
+      "position": "Software engineering consultant",
       "website": "https://jcoelho93.netlify.com",
       "startDate": "2021-01-15",
       "endDate": "",
@@ -53,7 +62,7 @@
     },
     {
       "company": "Bosch",
-      "position": "DevOps Engineer for automated driving",
+      "position": "DevOps Engineer",
       "website": "https://www.bosch.hu",
       "startDate": "2019-10-15",
       "endDate": "2020-10-10",
@@ -80,8 +89,8 @@
     },
     {
       "company": "European GNSS Agency",
-      "position": "IT Support Technician",
-      "website": "https://www.gsa.europea.eu",
+      "position": "IT Support Trainee",
+      "website": "https://www.euspa.europa.eu/",
       "startDate": "2016-05-01",
       "endDate": "",
       "summary": "Moved to Prague, Czech Republic to intern for the European Commission helping them build one of the biggest european projects, Galileo Satellite System",
@@ -89,7 +98,7 @@
     },
     {
       "company": "Empresa de Electricidade da Madeira",
-      "position": "IT Support Technician",
+      "position": "IT Support Trainee",
       "website": "https://www.eem.pt",
       "startDate": "2015-03-01",
       "endDate": "",
