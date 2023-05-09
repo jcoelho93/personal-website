@@ -1,4 +1,6 @@
 import React from "react";
+import "lazysizes";
+import "lazysizes/plugins/attrchange/ls.attrchange";
 
 function Footer() {
   return (
@@ -15,7 +17,7 @@ function Footer() {
             width="512"
             height="96"
             src="https://bulma.io/images/made-with-bulma--semiwhite.png"
-            className="bulma-image"
+            className="bulma-image lazyload"
             alt=""
           />
         </p>

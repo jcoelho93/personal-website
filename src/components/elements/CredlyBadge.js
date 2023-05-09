@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "lazysizes";
+import "lazysizes/plugins/attrchange/ls.attrchange";
 
 function CredlyBadge(props) {
+  useEffect(() => {
+    // initialize lazysizes library after component is mounted
+    window.lazySizes.init();
+  }, []);
+
   let imgSrc =
     "https://images.credly.com/size/" + props.width + "x" + props.height;
   imgSrc += "/images/" + props.imageId + "/" + props.imageName;
@@ -9,7 +16,7 @@ function CredlyBadge(props) {
   return (
     <figure className="is-inline-block image">
       <a href={imgLink} target="_blank" rel="noopener noreferrer">
-        <img src={imgSrc} alt={props.badgeName} />
+        <img className="lazyload" data-src={imgSrc} alt={props.badgeName} />
       </a>
     </figure>
   );

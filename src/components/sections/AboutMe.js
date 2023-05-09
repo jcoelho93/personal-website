@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Badge from "../elements/Badge";
 import Resume from "../../resume.json";
+import "lazysizes";
+import "lazysizes/plugins/attrchange/ls.attrchange";
 
 function AboutMe() {
+  useEffect(() => {
+    // initialize lazysizes library after component is mounted
+    window.lazySizes.init();
+  }, []);
+
   return (
     <section className="section has-background-link" id="aboutMe">
       <div className="container has-text-centered">
@@ -12,7 +19,8 @@ function AboutMe() {
             height="180px"
             src={Resume.basics.picture}
             alt={Resume.basics.name}
-            className="is-rounded"
+            className="is-rounded lazyload"
+            data-src={Resume.basics.picture}
             onError={(e)=>{e.target.onerror = null; e.target.src=Resume.basics.x_pictureFallback}}
           />
         </figure>
