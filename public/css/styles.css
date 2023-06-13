@@ -38,3 +38,8 @@ html {
 .skill-icon {
     padding: 20px;
 }
+
+.title a {
+    text-decoration: none;
+    color: inherit;
+}
