@@ -34,11 +34,20 @@
   },
   "work": [
     {
+      "company": "PagerDuty",
+      "position": "Site Reliability Engineer",
+      "website": "https://pagerduty.com",
+      "startDate": "2023-07-14",
+      "endDate": "",
+      "summary": "Part of the SRE Delivery team, I'm helping PagerDuty deliver the best experience to their customers.",
+      "highlights": []
+    },
+    {
       "company": "Mindera",
       "position": "Site Reliability Engineer",
       "website": "https://mindera.com",
       "startDate": "2023-03-13",
-      "endDate": "",
+      "endDate": "2023-07-10",
       "summary": "A self-organizing company, time to be my own boss.",
       "highlights": []
     },
