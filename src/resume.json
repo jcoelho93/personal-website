@@ -1,34 +1,28 @@
 {
   "basics": {
-    "name": "José Coelho",
-    "label": "Site Reliability Engineer",
-    "picture": "images/jcoelho.webp",
-    "x_pictureFallback": "images/jcoelho.jpg",
-    "x_title": "Hey There! Glad you're here",
-    "summary": "I've been working in Operations for the last few years, mostly as a DevOps engineer. I really enjoy working with Cloud technologies and building cloud-native applications.<br />I believe I'm most proeficient and can help your company the most in the following topics:<br /><br /><ul><li><b>Developer Experience</b></li><li><b>Cloud Governance and Security</b></li><li><b>Service Management</b></li><li><b>Site reliability</b></li></ul>",
+    "name": "Hunter Broughton",
+    "label": "Software Engineer",
+    "picture": "images/hunterCoding.jpeg",
+    "x_pictureFallback": "images/hunterCoding.jpeg",
+    "x_title": "Hello! I'm Hunter Broughton, glad you're here!",
+    "summary": "I'm a junior studying Computer Science and Economics at the University of Michigan. Last summer I was a front-end engineering intern for Vloggi, a tech startup in Sydney, Australia. I made this website to highlight my past work, courses, projects, and much more! Here are some of my skills and personal interests: <br /><br /><ul><li><b>Front-End Web Development</b></li><li><b></b></li><li><b>Algorithm Design and Analysis</b></li><li><b>Back-End Data Management and Machine Learning</b></li></ul>",
     "location": {
-      "country": "Portugal",
-      "countryCode": "PT",
-      "region": "Porto"
+      "country": "Washington",
+      "countryCode": "US",
+      "region": "Seattle"
     },
     "profiles": [
       {
-        "network": "DEV Community",
-        "username": "jcoelho",
-        "url": "https://dev.to/jcoelho",
-        "x_icon": "fab fa-2x fa-dev"
-      },
-      {
         "network": "LinkedIn",
-        "username": "josecoelho93",
-        "url": "https://www.linkedin.com/in/josecoelho93",
-        "x_icon": "fab fa-2x fa-linkedin"
+        "username": "hunter-broughton",
+        "url": "https://www.linkedin.com/in/hunter-broughton/",
+        "x_icon": "fab fa-3x fa-linkedin"
       },
       {
         "network": "GitHub",
-        "username": "jcoelho93",
-        "url": "https://github.com/jcoelho93",
-        "x_icon": "fab fa-2x fa-github"
+        "username": "hunter-broughton",
+        "url": "https://github.com/hunter-broughton",
+        "x_icon": "fab fa-3x fa-github"
       }
     ]
   },
@@ -117,59 +111,86 @@
   ],
   "education": [
     {
-      "institution": "University of Madeira",
-      "area": "Computer Engineering",
-      "studyType": "Bachelor",
-      "startDate": "2011-09-15",
-      "endDate": "2019-06-07",
+      "institution": "University of Michigan",
+      "area": "Computer Science and Economics",
+      "studyType": "Bachelor of Science",
+      "startDate": "August 2023",
+      "endDate": "May 2026",
       "courses": [
-        "Object Oriented Programming",
-        "Database Management Systems",
-        "Operating systems and computers architectures",
-        "Requirements Engineering"
-      ]
+        "Data Structures and Algorithms",
+        "Software Engineering",
+        "Theory of Computation",
+        "Game Theory",
+        "Calculus III"
+      ],
+      "image": "images/UMLogo.png"
+    },
+    {
+      "institution": "Colby College",
+      "area": "Computer Science and Economics",
+      "studyType": "Bachelor of Science",
+      "startDate": "August 2022",
+      "endDate": "May 2023",
+      "courses": [
+        "Data Structures and Algorithms",
+        "Game Designe",
+        "Calculus I, II",
+        "Micro and Macro Economics"
+      ],
+      "image": "images/colbyLogo2.png"
+    },
+    {
+      "institution": "MIT Sloan School of Management",
+      "area": "Business Analytics",
+      "studyType": "Program Certificate",
+      "startDate": "Febuary 2023",
+      "endDate": "April 2023",
+      "courses": [
+        
+      ],
+      "image": "images/MIT.png"
     }
   ],
   "skills": [
     {
-      "name": "AWS",
-      "x_icon": "fa-brands fa-aws",
-      "x_description": "EC2, VPC, Cognito, CloudFormation, RDS, S3, CloudFront, IAM and others"
+      "name": "C++",
+      "x_icon": "fa-brands fa-cuttlefish",
+      "x_description": "Developing high-performance applications, data-structures, and algorithms with C++"
     },
     {
-      "name": "Infrastructure as Code",
-      "x_icon": "fa-code",
-      "x_description": "Developing and maintaing infrastructure as code with Terraform, Packer and Vagrant"
+      "name": "Java",
+      "x_icon": "fa-brands fa-java",
+      "x_description": "Developing and maintaining applications with Java"
     },
     {
-      "name": "Configuration Management",
-      "x_icon": "fa-gears",
-      "x_description": "Launching, configuring and maintaining cloud environments with Ansible"
+      "name": "SQL",
+      "x_icon": "fa-database",
+      "x_description": "Managing and querying back-end databases with SQL"
     },
     {
-      "name": "CI/CD",
-      "x_icon": "fa-infinity",
-      "x_description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+      "name": "ML: Scikit-Learn",
+      "x_icon": "fa-brands fa-python",
+      "x_description": "Implementing machine learning models with Scikit-Learn"
     },
     {
       "name": "Python",
       "x_icon": "fa-brands fa-python",
-      "x_description": "Writting deployment tools and scripts, and automating all possible tasks with Python"
+      "x_description": "Writing deployment tools and scripts, and automating tasks with Python"
     },
     {
-      "name": "Monitoring",
-      "x_icon": "fa-chart-line",
-      "x_description": "Implementing centralized monitoring solution for cloud environments with Telegraf, InfluxDB and Grafana"
+      "name": "Java-Script",
+      "x_icon": "fa-brands fa-js",
+      "x_description": "Developing interactive web applications with JavaScript"
     },
     {
-      "name": "Serverless",
-      "x_icon": "fa-bolt",
-      "x_description": "Building reliable and cost efficient systems with Lambda functions and the serverless framework"
+      "name": "React",
+      "x_icon": "fa-brands fa-react",
+      "x_description": "Building creative and flexible user interfaces with React"
     },
     {
       "name": "Containers",
       "x_icon": "fa-brands fa-docker",
-      "x_description": "Delivering and distributing applications and tools with Docker, docker-compose and kubernetes"
+      "x_description": "Delivering and distributing applications and tools with Docker and Docker-compose"
     }
   ],
   "languages": [
@@ -218,20 +239,20 @@
   ],
   "interests": [
     {
-      "name": "Travel bug",
-      "x_icon": "fa-globe-africa"
+      "name": "Outdoorsman",
+      "x_icon": "fa-tree"
     },
     {
-      "name": "Dog lover",
-      "x_icon": "fa-dog"
+      "name": "Guitar Player",
+      "x_icon": "fa-guitar"
     },
     {
-      "name": "Foodie",
-      "x_icon": "fa-utensils"
+      "name": "Surfer",
+      "x_icon": "fa-water"
     },
     {
-      "name": "Live in the now",
-      "x_icon": "fa-brain"
+      "name": "Golfer",
+      "x_icon": "fa-golf-ball"
     }
   ]
 }
