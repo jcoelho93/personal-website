@@ -187,33 +187,25 @@
       "name": "AWS Certified Solutions Architect Associate",
       "issuer": "Amazon Web Services Training and Certification",
       "url": "https://www.credly.com/badges/263d35c5-83db-4f93-97a4-a84ee806da90/public_url",
-      "x_badgeId": "263d35c5-83db-4f93-97a4-a84ee806da90",
-      "x_imageId": "0e284c3f-5164-4b21-8660-0d84737941bc",
-      "x_imageName": "image.png"
+      "badge": "images/certificates/aws-certified-solutions-architect-associate.png"
     },
     {
       "name": "HashiCorp Certified: Terraform Associate",
       "issuer": "HashiCorp",
       "url": "https://www.credly.com/badges/b5c9ee11-de03-482b-8b74-71c4eba299cf/public_url",
-      "x_badgeId": "b5c9ee11-de03-482b-8b74-71c4eba299cf",
-      "x_imageId": "99289602-861e-4929-8277-773e63a2fa6f",
-      "x_imageName": "image.png"
+      "badge": "images/certificates/hc-terraform-associate.png"
     },
     {
       "name": "Certified Kubernetes Application Developer",
       "issuer": "The Linux Foundation",
       "url": "https://www.credly.com/badges/3b4c4056-b736-4a9b-bcad-5a8457ef72e1/public_url",
-      "x_badgeId": "3b4c4056-b736-4a9b-bcad-5a8457ef72e1",
-      "x_imageId": "f88d800c-5261-45c6-9515-0458e31c3e16",
-      "x_imageName": "ckad_from_cncfsite.png"
+      "badge": "images/certificates/certified-kubernetes-application-developer.png"
     },
     {
       "name": "Certificate of Cloud Security Knowledge",
       "issuer": "Cloud Security Alliance",
       "url": "https://www.credly.com/badges/a597b998-5019-46d9-a93f-47841ae3bd64/public_url",
-      "x_badgeId": "a597b998-5019-46d9-a93f-47841ae3bd64",
-      "x_imageId": "25ba8143-ac0a-413c-8c66-01c9edc4a80f",
-      "x_imageName": "CCSK-v4-Credly-badge.png"
+      "badge": "images/certificates/certificate-of-cloud-security-knowledge.png"
     }
   ],
   "interests": [

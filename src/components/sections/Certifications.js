@@ -10,11 +10,10 @@ function buildBadges(certificates) {
     credlyBadges.push(
       <div key={index} className={columnClass}>
         <CredlyBadge
-          width="186"
-          height="186"
-          imageId={cert.x_imageId}
-          imageName={cert.x_imageName}
-          badgeId={cert.x_badgeId}
+          width="140"
+          height="140"
+          url={cert.url}
+          badge={cert.badge}
           badgeName={cert.name + " by " + cert.issuer}
         />
       </div>
