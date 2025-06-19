@@ -1,7 +1,6 @@
 import React from "react";
 import Resume from "../../resume.json";
-import Skill from "../elements/Skill"
-
+import Skill from "../elements/Skill";
 
 function buildSkillsRow(skills, start, end) {
   const batch = skills.slice(start, end);
@@ -15,7 +14,7 @@ function buildSkillsRow(skills, start, end) {
           description={value.x_description}
         />
       </div>
-    )
+    );
   });
   return skillsComponents;
 }
@@ -25,11 +24,10 @@ function Skills() {
     <section className="section" id="skills">
       <div className="container">
         <h1 className="title">Skills</h1>
+        <div className="columns">{buildSkillsRow(Resume.skills, 0, 4)}</div>
+        <div className="columns">{buildSkillsRow(Resume.skills, 4, 8)}</div>
         <div className="columns">
-          {buildSkillsRow(Resume.skills, 0, 4)}
-        </div>
-        <div className="columns">
-          {buildSkillsRow(Resume.skills, 4, 8)}
+          {buildSkillsRow(Resume.skills, 8, Resume.skills.length)}
         </div>
       </div>
     </section>

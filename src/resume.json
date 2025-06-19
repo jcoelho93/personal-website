@@ -13,12 +13,6 @@
     },
     "profiles": [
       {
-        "network": "DEV Community",
-        "username": "jcoelho",
-        "url": "https://dev.to/jcoelho",
-        "x_icon": "fab fa-2x fa-dev"
-      },
-      {
         "network": "LinkedIn",
         "username": "josecoelho93",
         "url": "https://www.linkedin.com/in/josecoelho93",
@@ -29,6 +23,12 @@
         "username": "jcoelho93",
         "url": "https://github.com/jcoelho93",
         "x_icon": "fab fa-2x fa-github"
+      },
+      {
+        "network": "DEV Community",
+        "username": "jcoelho",
+        "url": "https://dev.to/jcoelho",
+        "x_icon": "fab fa-2x fa-dev"
       }
     ]
   },
@@ -134,42 +134,52 @@
     {
       "name": "AWS",
       "x_icon": "fa-brands fa-aws",
-      "x_description": "EC2, VPC, Cognito, CloudFormation, RDS, S3, CloudFront, IAM and others"
+      "x_description": "Designing scalable, secure, and resilient systems using core AWS services"
     },
     {
       "name": "Infrastructure as Code",
-      "x_icon": "fa-code",
-      "x_description": "Developing and maintaing infrastructure as code with Terraform, Packer and Vagrant"
+      "x_icon": "fa-cubes",
+      "x_description": "Provisioning infrastructure repeatably and reliably using declarative code"
     },
     {
-      "name": "Configuration Management",
-      "x_icon": "fa-gears",
-      "x_description": "Launching, configuring and maintaining cloud environments with Ansible"
+      "name": "Kubernetes",
+      "x_icon": "fa-dharmachakra",
+      "x_description": "Orchestrating and managing containerized workloads using Kubernetes and GitOps"
+    },
+    {
+      "name": "Cloud Security",
+      "x_icon": "fa-shield-halved",
+      "x_description": "Enforcing least privilege, encryption, and compliance in heavily regulated cloud environments"
+    },
+    {
+      "name": "Reliability",
+      "x_icon": "fa-heart-pulse",
+      "x_description": "Driving reliability through SLI/SLO, incident management, and postmortem culture"
     },
     {
       "name": "CI/CD",
       "x_icon": "fa-infinity",
-      "x_description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+      "x_description": "Building robust pipelines for continuous integration, testing, and delivery"
     },
     {
       "name": "Python",
       "x_icon": "fa-brands fa-python",
-      "x_description": "Writting deployment tools and scripts, and automating all possible tasks with Python"
+      "x_description": "Automating workflows and building internal tools with Python"
     },
     {
       "name": "Monitoring",
       "x_icon": "fa-chart-line",
-      "x_description": "Implementing centralized monitoring solution for cloud environments with Telegraf, InfluxDB and Grafana"
+      "x_description": "Instrumenting systems with OpenTelemetry to enable insight, traceability, and fast incident response"
     },
     {
       "name": "Serverless",
       "x_icon": "fa-bolt",
-      "x_description": "Building reliable and cost efficient systems with Lambda functions and the serverless framework"
+      "x_description": "Building scalable event-driven systems using serverless compute"
     },
     {
       "name": "Containers",
       "x_icon": "fa-brands fa-docker",
-      "x_description": "Delivering and distributing applications and tools with Docker, docker-compose and kubernetes"
+      "x_description": "Packaging and running applications in isolated, portable environments"
     }
   ],
   "languages": [
