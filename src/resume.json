@@ -5,7 +5,7 @@
     "picture": "images/jcoelho.webp",
     "x_pictureFallback": "images/jcoelho.jpg",
     "x_title": "Hey There! Glad you're here",
-    "summary": "I've been working in Operations for the last few years, mostly as a DevOps engineer. I really enjoy working with Cloud technologies and building cloud-native applications.<br />I believe I'm most proeficient and can help your company the most in the following topics:<br /><br /><ul><li><b>Developer Experience</b></li><li><b>Cloud Governance and Security</b></li><li><b>Service Management</b></li><li><b>Site reliability</b></li></ul>",
+    "summary": "I've been working in Operations for the last few years, mostly as a DevOps engineer. I really enjoy working with Cloud technologies and building cloud-native applications.",
     "location": {
       "country": "Portugal",
       "countryCode": "PT",

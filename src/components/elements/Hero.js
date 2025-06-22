@@ -26,7 +26,7 @@ function Hero() {
                 <a
                   href={value.url}
                   target="blank"
-                  className="is-hovered"
+                  className="has-text-white"
                   title={value.network}
                 >
                   <span className="icon is-medium is-">

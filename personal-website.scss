@@ -1,0 +1,7 @@
+$beige: #F7EED3;
+$light-green: #AAB396;
+
+@use "node_modules/bulma/sass" with (
+    $primary: $beige,
+    $link: $light-green,
+);

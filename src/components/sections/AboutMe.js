@@ -1,4 +1,3 @@
-import React from "react";
 import Badge from "../elements/Badge";
 import Resume from "../../resume.json";
 
@@ -6,10 +5,9 @@ function AboutMe() {
   return (
     <section className="section has-background-link" id="aboutMe">
       <div className="container has-text-centered">
-        <figure className="image container is-180x180">
+        <figure className="image is-inline-block">
           <img
-            width="180px"
-            height="180px"
+            style={{ width: "180px", height: "180px" }}
             src={Resume.basics.picture}
             alt={Resume.basics.name}
             className="is-rounded"

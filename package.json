@@ -6,7 +6,8 @@
     "bulma": "^1.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "sass": "^1.89.2"
   },
   "engines": {
     "node": "20.9.0",
@@ -17,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "build-bulma": "sass --load-path=node_modules personal-website.scss public/css/personal-website.css"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,8 +29,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  }
+  ]
 }
