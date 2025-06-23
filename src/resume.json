@@ -5,7 +5,7 @@
     "picture": "images/jcoelho.webp",
     "x_pictureFallback": "images/jcoelho.jpg",
     "x_title": "Hey There! Glad you're here",
-    "summary": "I've been working in Operations for the last few years, mostly as a DevOps engineer. I really enjoy working with Cloud technologies and building cloud-native applications.",
+    "summary": "I've spent the last few years focused on building and maintaining reliable, scalable infrastructure. I enjoy making systems easy to operate and resilient under pressure, whether that's through automation, smart architecture, or thoughtful processes.<br /><br />I'm especially interested in cloud infrastructure and distributed systems, and I enjoy working on platforms that enable development teams to move quickly without sacrificing stability. I care about clean, maintainable solutions and believe reliability should be a product feature, not an afterthought.",
     "location": {
       "country": "Portugal",
       "countryCode": "PT",
@@ -216,24 +216,6 @@
       "issuer": "Cloud Security Alliance",
       "url": "https://www.credly.com/badges/a597b998-5019-46d9-a93f-47841ae3bd64/public_url",
       "badge": "images/certificates/certificate-of-cloud-security-knowledge.png"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Travel bug",
-      "x_icon": "fa-globe-africa"
-    },
-    {
-      "name": "Dog lover",
-      "x_icon": "fa-dog"
-    },
-    {
-      "name": "Foodie",
-      "x_icon": "fa-utensils"
-    },
-    {
-      "name": "Live in the now",
-      "x_icon": "fa-brain"
     }
   ]
 }

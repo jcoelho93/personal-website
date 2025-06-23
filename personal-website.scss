@@ -1,7 +1,12 @@
 $beige: #F7EED3;
-$light-green: #AAB396;
+$light-green: #A4B465;
+$dark-blue: #546D64;
+$pink: #DB3069;
 
 @use "node_modules/bulma/sass" with (
-    $primary: $beige,
-    $link: $light-green,
+    $primary: $light-green,
+    $link: $dark-blue,
+    $success: $light-green,
+    $info: $beige,
+    $danger: $pink,
 );
