@@ -1,4 +1,3 @@
-import Badge from "../elements/Badge";
 import Resume from "../../resume.json";
 
 function AboutMe() {
