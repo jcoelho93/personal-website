@@ -36,6 +36,6 @@ Articles are loaded live from DEV Community: [https://dev.to/jcoelho](https://de
 
 ## Profiles
 
-- [LinkedIn](https://www.linkedin.com/in/josecoelho93): josecoelho93
+- [LinkedIn](https://www.linkedin.com/in/jcoelho93/): jcoelho93
 - [GitHub](https://github.com/jcoelho93): jcoelho93
 - [DEV Community](https://dev.to/jcoelho): jcoelho
