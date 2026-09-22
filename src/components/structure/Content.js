@@ -4,6 +4,7 @@ import Skills from "../sections/Skills";
 import Certifications from "../sections/Certifications";
 import Experience from "../sections/Experience";
 import Articles from "../sections/Articles";
+import { SHOW_EXPERIENCE } from "../../config";
 
 function Content() {
   return (
@@ -11,7 +12,7 @@ function Content() {
       <AboutMe />
       <Skills />
       <Certifications />
-      <Experience />
+      {SHOW_EXPERIENCE && <Experience />}
       <Articles />
     </main>
   );

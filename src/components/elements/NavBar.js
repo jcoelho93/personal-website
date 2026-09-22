@@ -1,6 +1,7 @@
 import React from "react";
 import MenuItem from "./MenuItem";
 import Resume from "../../resume.json";
+import { SHOW_EXPERIENCE } from "../../config";
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -47,7 +48,9 @@ class NavBar extends React.Component {
               <MenuItem text="About Me" href="#aboutMe" />
               <MenuItem text="Skills" href="#skills" />
               <MenuItem text="Certifications" href="#certifications" />
-              <MenuItem text="Experience" href="#experience" />
+              {SHOW_EXPERIENCE && (
+                <MenuItem text="Experience" href="#experience" />
+              )}
               <MenuItem text="Articles" href="#articles" />
             </div>
           </div>
