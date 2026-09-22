@@ -1,0 +1,41 @@
+# José Coelho
+
+> Site Reliability Engineer based in Porto, Portugal.
+
+Website: https://jcoelho93.netlify.app
+
+## About Me
+
+I've spent the last few years focused on building and maintaining reliable, scalable infrastructure. I enjoy making systems easy to operate and resilient under pressure, whether that's through automation, smart architecture, or thoughtful processes.
+
+I'm especially interested in cloud infrastructure and distributed systems, and I enjoy working on platforms that enable development teams to move quickly without sacrificing stability. I care about clean, maintainable solutions and believe reliability should be a product feature, not an afterthought.
+
+## Skills
+
+- **AWS**: Designing scalable, secure, and resilient systems using core AWS services
+- **Infrastructure as Code**: Provisioning infrastructure repeatably and reliably using declarative code
+- **Kubernetes**: Orchestrating and managing containerized workloads using Kubernetes and GitOps
+- **Cloud Security**: Enforcing least privilege, encryption, and compliance in heavily regulated cloud environments
+- **Reliability**: Driving reliability through SLI/SLO, incident management, and postmortem culture
+- **CI/CD**: Building robust pipelines for continuous integration, testing, and delivery
+- **Python**: Automating workflows and building internal tools with Python
+- **Monitoring**: Instrumenting systems with OpenTelemetry to enable insight, traceability, and fast incident response
+- **Serverless**: Building scalable event-driven systems using serverless compute
+- **Containers**: Packaging and running applications in isolated, portable environments
+
+## Certifications
+
+- [AWS Certified Solutions Architect Associate](https://www.credly.com/badges/263d35c5-83db-4f93-97a4-a84ee806da90/public_url) — Amazon Web Services Training and Certification
+- [HashiCorp Certified: Terraform Associate](https://www.credly.com/badges/b5c9ee11-de03-482b-8b74-71c4eba299cf/public_url) — HashiCorp
+- [Certified Kubernetes Application Developer](https://www.credly.com/badges/3b4c4056-b736-4a9b-bcad-5a8457ef72e1/public_url) — The Linux Foundation
+- [Certificate of Cloud Security Knowledge](https://www.credly.com/badges/a597b998-5019-46d9-a93f-47841ae3bd64/public_url) — Cloud Security Alliance
+
+## Articles
+
+Articles are loaded live from DEV Community: [https://dev.to/jcoelho](https://dev.to/jcoelho)
+
+## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/josecoelho93): josecoelho93
+- [GitHub](https://github.com/jcoelho93): jcoelho93
+- [DEV Community](https://dev.to/jcoelho): jcoelho

@@ -1,0 +1,19 @@
+# José Coelho
+
+> Site Reliability Engineer based in Porto, Portugal.
+
+I've spent the last few years focused on building and maintaining reliable, scalable infrastructure. I enjoy making systems easy to operate and resilient under pressure, whether that's through automation, smart architecture, or thoughtful processes.
+
+## Site
+
+- [About Me](https://jcoelho93.netlify.app/#aboutMe): Introduction and summary
+- [Skills](https://jcoelho93.netlify.app/#skills): AWS, Infrastructure as Code, Kubernetes, Cloud Security, Reliability, CI/CD, Python, Monitoring, Serverless, Containers
+- [Certifications](https://jcoelho93.netlify.app/#certifications): 4 professional certifications
+- [Articles](https://jcoelho93.netlify.app/#articles): Latest articles from DEV Community
+- [Full text](https://jcoelho93.netlify.app/llms-full.txt): All site content as a single markdown file
+
+## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/josecoelho93): josecoelho93
+- [GitHub](https://github.com/jcoelho93): jcoelho93
+- [DEV Community](https://dev.to/jcoelho): jcoelho
